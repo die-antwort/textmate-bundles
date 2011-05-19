@@ -1,6 +1,6 @@
 h1. Textmate Bundle for Cucumber
 
-*This TextMate plugin is currently not maintained by anyone. It will stay in this repo if someone volunteers to maintain it. Otherwise it will be deleted on or after June 19 2011. For more info, see this "thread":http://groups.google.com/group/cukes/browse_thread/thread/bf648fef563bbf99 *
+*This TextMate plugin is currently not maintained by anyone.* It will stay in this repo if someone volunteers to maintain it. Otherwise it will be deleted on or after June 19 2011. For more info, see this "thread":http://groups.google.com/group/cukes/browse_thread/thread/bf648fef563bbf99
 
 This is a fork of the "rspec-story-tmbundle":http://github.com/bmabey/rspec-story-tmbundle.
 The goal is to keep the same functionality that the original bundle had but make it compatible with Cucumber and also take advantage of the benefits that Cucumber offers.
