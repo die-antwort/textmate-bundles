@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "rspec", "~> 1.3.2"
+gem "rspec", "~> 2.6.0"
 gem "rcov"
 gem "cucumber"
 

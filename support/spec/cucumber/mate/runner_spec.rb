@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/../../../lib/cucumber/mate/runner'
 
 module Cucumber
   module Mate
-    describe "a run command", :shared => true do
+    shared_examples "a run command" do
       it "should run with the cucumber command by default" do
         expect_system_call_to_be_made_with(%r[#{Cucumber::Mate::Runner::CUCUMBER_BIN}])
         when_run_is_called

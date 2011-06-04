@@ -1,13 +1,16 @@
 $:.unshift(File.dirname(__FILE__) + '/../../rspec/lib')
 require 'rubygems'
-require 'spec/rake/spectask'
+require 'rspec/core/rake_task'
 
 desc "Run all specs"
-Spec::Rake::SpecTask.new do |t|
+Rspec::Core::RakeTask.new do |t|
   t.rcov = true
-  t.spec_opts = ['--colour', '--diff']
   t.rcov_opts = ['--exclude', 'rspec\/plugins,rspec\/lib\/spec,spec\/spec,fixtures,bin\/spec']
 end
 
 
 Dir['bundle_tasks/**/*.rake'].each { |rake| load rake }
+
+
+
+
