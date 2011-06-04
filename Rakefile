@@ -1,12 +1,11 @@
 $:.unshift(File.dirname(__FILE__) + '/../../rspec/lib')
 require 'rubygems'
-require 'spec/rake/spectask'
+require 'rspec/core/rake_task'
 
 desc "Run all specs"
-Spec::Rake::SpecTask.new do |t|
-  t.spec_files = FileList['support/spec/**/*_spec.rb']
+RSpec::Core::RakeTask.new do |t|
+  t.pattern = 'support/spec/**/*_spec.rb'
   t.rcov = true
-  t.spec_opts = ['--colour', '--diff']
   t.rcov_opts = ['--exclude', 'TextMate.app,gem,rspec\/plugins,rspec\/lib\/spec,spec\/spec,fixtures,bin\/spec']
 end
 

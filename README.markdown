@@ -29,23 +29,17 @@ Features
 * Run a feature with HTML output.
 * Run a single scenario with HTML output.
 
-Running Specs
--------------
 
-This project relies on rvm and bundler for doing development. Its suggested you use the .rvmrc.sample file to set a project environment then
+Developing Hacking etc.
+=======================
 
-1. install bundler
-1. run bundle install
+There is now a [developers readme](/DEV_README.markdown), please read this if you are hacking this bundle.
 
-Now you should be able to run both
-
-1. `rake spec`
-1. `spec support/spec`
 
 Credits
 =======
 
-The Cucumber TM Bundle is currently be maintained by Ben Mabey and Dr. Nic.
+The Cucumber TM Bundle is currently be maintained by Andrew Premdas.
 
 * **Ben Mabey** - Author/Main contributor (stuff)
 * **Dr. Nic** - Main contributor (Snippet and grammar updates, updated 'Run Focused Scenario' command, Autocomplete Step command, Scenario Folding, Choose Alternate File, and more stuff)
