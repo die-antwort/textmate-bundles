@@ -33,7 +33,7 @@ Features
 Developing Hacking etc.
 =======================
 
-There is now a [developers readme](/DEV_README.markdown), please read this if you are hacking this bundle.
+There is now a [developers readme](http://github.com/cucumber/cucumber-tmbundle/blob/master/DEV_README.markdown), please read this if you are hacking this bundle.
 
 
 Credits
