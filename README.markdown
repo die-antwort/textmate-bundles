@@ -39,7 +39,7 @@ There is now a [developers readme](http://github.com/cucumber/cucumber-tmbundle/
 Credits
 =======
 
-The Cucumber TM Bundle is currently be maintained by Andrew Premdas.
+The Cucumber TM Bundle is currently maintained by Andrew Premdas.
 
 * **Ben Mabey** - Author/Main contributor (stuff)
 * **Dr. Nic** - Main contributor (Snippet and grammar updates, updated 'Run Focused Scenario' command, Autocomplete Step command, Scenario Folding, Choose Alternate File, and more stuff)
