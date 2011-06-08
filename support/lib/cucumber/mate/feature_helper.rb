@@ -59,7 +59,7 @@ module Cucumber
       end
 
       def autocomplete_step(stdout, current_line)
-        unless matches = current_line.match(/([\s\t]*(?:given|when|then|and|but)\s+)(.*)/i)
+        unless matches = current_line.match(/(\s*(?:given|when|then|and|but)\s+)(.*)/i)
           stdout.print current_line
           return
         end
