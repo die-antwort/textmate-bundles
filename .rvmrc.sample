@@ -4,9 +4,4 @@
 #   2. cd out and into folder
 #   3. accept use of .rvmrc
 # please do not commit a .rvmrc
-rvm --create use 1.8.7@cucumber-tmbundle > /dev/null
-
-# change your gemset when you upgrade to rspec 2
-rvm --create use 1.8.7@cucumber-tmbundle-rspec2 > /dev/null
-
-
+rvm --create use @cucumber-tmbundle > /dev/null
