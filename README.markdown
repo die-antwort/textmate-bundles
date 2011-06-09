@@ -16,6 +16,8 @@ To install the color themes for the syntax highlighting, install the as follows:
 
 Adaptations of other themes is welcome!
 
+If you are using [RVM](http://beginrescueend.com/) you can set up TextMate to use your RVM settings (read your `.rvmrc` file) by following [these instructions](http://beginrescueend.com/integration/textmate/). 
+
 Features
 --------
 
