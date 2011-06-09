@@ -1,4 +1,4 @@
-desc 'Generates the plain text syntax file for all languages supported by Cucumber'
+desc 'Generates the plain text syntax file for all languages supported by the latest Gherkin'
 task :i18n_generate do
   require 'erb'
   require 'gherkin/i18n'
