@@ -4,6 +4,33 @@
 <dict>
 	<key>changed</key>
 	<dict>
+		<key>settings.highlightPairs</key>
+		<array>
+			<array>
+				<string>(</string>
+				<string>)</string>
+			</array>
+			<array>
+				<string>{</string>
+				<string>}</string>
+			</array>
+			<array>
+				<string>[</string>
+				<string>]</string>
+			</array>
+			<array>
+				<string>„</string>
+				<string>“</string>
+			</array>
+			<array>
+				<string>»</string>
+				<string>«</string>
+			</array>
+			<array>
+				<string>&lt;</string>
+				<string>&gt;</string>
+			</array>
+		</array>
 		<key>settings.smartTypingPairs</key>
 		<array>
 			<array>
@@ -27,28 +54,18 @@
 				<string>“</string>
 			</array>
 			<array>
-				<string>‚</string>
-				<string>‘</string>
-			</array>
-			<array>
 				<string>»</string>
 				<string>«</string>
 			</array>
 			<array>
-				<string>'</string>
-				<string>'</string>
-			</array>
-			<array>
-				<string>`</string>
-				<string>`</string>
+				<string>&lt;</string>
+				<string>&gt;</string>
 			</array>
 		</array>
 	</dict>
-	<key>deleted</key>
-	<array/>
 	<key>isDelta</key>
 	<true/>
 	<key>uuid</key>
-	<string>9D03129B-D636-4F5B-A862-E52FD1F912F5</string>
+	<string>FC34BE82-69DC-47B0-997A-37A8763D4E69</string>
 </dict>
 </plist>
