@@ -3,7 +3,10 @@
 require "fileutils"
 
 BUNDLES = {
-  "JavaScript JSLintMate.tmbundle" => "git://github.com/rondevera/jslintmate.git"
+  "Cucumber.tmbundle" => "git://github.com/cucumber/cucumber-tmbundle.git", 
+  "Jade.tmbundle" => "git://github.com/miksago/jade-tmbundle",
+  "JavaScript JSLintMate.tmbundle" => "git://github.com/rondevera/jslintmate.git",
+  "SCSS.tmbundle" => "git://github.com/kuroir/SCSS.tmbundle.git"
 }
 
 Dir.chdir(File.dirname(__FILE__) + "/../") do
