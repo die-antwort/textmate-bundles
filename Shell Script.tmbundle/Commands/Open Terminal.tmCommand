@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>command</key>
+		<string>#!/usr/bin/env ruby -wKU
+require ENV['TM_SUPPORT_PATH'] + '/lib/escape.rb'
+
+def find_directory
+  files = [ ENV['TM_SELECTED_FILE'], ENV['TM_FILEPATH'], ENV['TM_DIRECTORY'], ENV['TM_PROJECT_DIRECTORY'], ENV['HOME'] ]
+  res = files.find { |file| file &amp;&amp; File.exists?(file) }
+  res &amp;&amp; File.file?(res) ? File.split(res).first : res
+end
+
+def is_running(process)
+  all = `ps -U "$USER" -o ucomm`
+  all.to_a[1..-1].find { |cmd| process == cmd.strip }
+end
+
+def terminal_script(dir)
+  return &lt;&lt;-APPLESCRIPT
+    activate application "Terminal"
+    tell application "System Events"
+    	tell process "Terminal" to keystroke "t" using command down
+    end tell
+    tell application "Terminal"
+      do script "cd #{e_as(e_sh(dir))}" in the last tab of window 1
+    end tell
+APPLESCRIPT
+end
+
+def iterm_script(dir)
+  return &lt;&lt;-APPLESCRIPT
+    tell application "iTerm"
+      activate
+      if exists the first terminal then
+        set myterm to the first terminal
+      else
+        set myterm to (make new terminal)
+      end if
+      tell myterm
+        activate current session
+        launch session "Default Session"
+        tell the last session
+          write text "cd #{e_as(e_sh(dir))}; clear; pwd"
+        end tell
+      end tell
+    end tell
+APPLESCRIPT
+end
+
+if dir = find_directory
+  script = nil
+  if ENV['TM_TERMINAL'] =~ /^iterm$/i || is_running('iTerm')
+    script = iterm_script(dir)
+  else
+    script = terminal_script(dir)
+  end
+  open("|osascript", "w") { |io| io &lt;&lt; script }
+end
+</string>
+		<key>inputFormat</key>
+		<string>text</string>
+		<key>outputCaret</key>
+		<string>afterOutput</string>
+		<key>outputFormat</key>
+		<string>text</string>
+		<key>outputLocation</key>
+		<string>discard</string>
+		<key>version</key>
+		<integer>2</integer>
+	</dict>
+	<key>deleted</key>
+	<array>
+		<string>output</string>
+	</array>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>54CDB56E-85EA-11D9-B369-000A95E13C98</string>
+</dict>
+</plist>
