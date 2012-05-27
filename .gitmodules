@@ -1,0 +1,3 @@
+[submodule "Ruby.tmbundle"]
+	path = Ruby.tmbundle
+	url = git@github.com:die-antwort/ruby.tmbundle.git
