@@ -4,3 +4,6 @@
 [submodule "Themes.tmbundle"]
 	path = Themes.tmbundle
 	url = git@github.com:die-antwort/themes.tmbundle.git
+[submodule "Ruby on Rails.tmbundle"]
+	path = Ruby on Rails.tmbundle
+	url = git@github.com:die-antwort/ruby-on-rails-tmbundle.git
