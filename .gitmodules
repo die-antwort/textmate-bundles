@@ -25,3 +25,6 @@
 [submodule "Source.tmbundle"]
 	path = Source.tmbundle
 	url = git@github.com:die-antwort/source.tmbundle.git
+[submodule "SCSS.tmbundle"]
+	path = SCSS.tmbundle
+	url = git@github.com:die-antwort/SCSS.tmbundle.git
