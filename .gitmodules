@@ -13,3 +13,6 @@
 [submodule "Text.tmbundle"]
 	path = Text.tmbundle
 	url = git@github.com:die-antwort/text.tmbundle.git
+[submodule "JavaScript JSLintMate.tmbundle"]
+	path = JavaScript JSLintMate.tmbundle
+	url = git@github.com:die-antwort/jslintmate.git
