@@ -28,3 +28,6 @@
 [submodule "SCSS.tmbundle"]
 	path = SCSS.tmbundle
 	url = git@github.com:die-antwort/SCSS.tmbundle.git
+[submodule "Cucumber.tmbundle"]
+	path = Cucumber.tmbundle
+	url = git@github.com:die-antwort/cucumber-tmbundle.git
