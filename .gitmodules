@@ -22,3 +22,6 @@
 [submodule "Shell Script.tmbundle"]
 	path = Shell Script.tmbundle
 	url = git@github.com:die-antwort/shellscript.tmbundle.git
+[submodule "Source.tmbundle"]
+	path = Source.tmbundle
+	url = git@github.com:die-antwort/source.tmbundle.git
