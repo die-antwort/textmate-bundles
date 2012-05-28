@@ -19,3 +19,6 @@
 [submodule "JavaScript.tmbundle"]
 	path = JavaScript.tmbundle
 	url = git@github.com:die-antwort/javascript.tmbundle.git
+[submodule "Shell Script.tmbundle"]
+	path = Shell Script.tmbundle
+	url = git@github.com:die-antwort/shellscript.tmbundle.git
