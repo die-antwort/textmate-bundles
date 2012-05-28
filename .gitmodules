@@ -10,3 +10,6 @@
 [submodule "HTML.tmbundle"]
 	path = HTML.tmbundle
 	url = git@github.com:die-antwort/html.tmbundle.git
+[submodule "Text.tmbundle"]
+	path = Text.tmbundle
+	url = git@github.com:die-antwort/text.tmbundle.git
