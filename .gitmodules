@@ -34,3 +34,6 @@
 [submodule "Jade.tmbundle"]
 	path = Jade.tmbundle
 	url = git@github.com:die-antwort/jade-tmbundle.git
+[submodule "CSS.tmbundle"]
+	path = CSS.tmbundle
+	url = git@github.com:die-antwort/css.tmbundle.git
