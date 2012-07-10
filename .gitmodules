@@ -37,3 +37,6 @@
 [submodule "CSS.tmbundle"]
 	path = CSS.tmbundle
 	url = git@github.com:die-antwort/css.tmbundle.git
+[submodule "Hyperlink Helper.tmbundle"]
+	path = Hyperlink Helper.tmbundle
+	url = git@github.com:die-antwort/hyperlink-helper.tmbundle.git
