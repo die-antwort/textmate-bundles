@@ -40,3 +40,6 @@
 [submodule "Hyperlink Helper.tmbundle"]
 	path = Hyperlink Helper.tmbundle
 	url = git@github.com:die-antwort/hyperlink-helper.tmbundle.git
+[submodule "RSpec.tmbundle"]
+	path = RSpec.tmbundle
+	url = git@github.com:die-antwort/rspec-tmbundle.git
