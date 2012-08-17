@@ -43,3 +43,6 @@
 [submodule "RSpec.tmbundle"]
 	path = RSpec.tmbundle
 	url = git@github.com:die-antwort/rspec-tmbundle.git
+[submodule "TODO.tmbundle"]
+	path = TODO.tmbundle
+	url = git@github.com:die-antwort/todo.tmbundle.git
