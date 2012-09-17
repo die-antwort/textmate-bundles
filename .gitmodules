@@ -46,3 +46,6 @@
 [submodule "TODO.tmbundle"]
 	path = TODO.tmbundle
 	url = git@github.com:die-antwort/todo.tmbundle.git
+[submodule "PHP.tmbundle"]
+	path = PHP.tmbundle
+	url = git@github.com:die-antwort/php.tmbundle.git
