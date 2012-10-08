@@ -1,0 +1,18 @@
+---
+CSS.tmbundle: git://github.com/textmate/css.tmbundle.git
+Cucumber.tmbundle: git://github.com/cucumber/cucumber-tmbundle.git
+HTML.tmbundle: git://github.com/textmate/html.tmbundle.git
+Hyperlink Helper.tmbundle: git://github.com/textmate/hyperlink-helper.tmbundle.git
+Jade.tmbundle: git://github.com/miksago/jade-tmbundle.git
+JavaScript JSLintMate.tmbundle: git://github.com/rondevera/jslintmate.git
+JavaScript.tmbundle: git://github.com/textmate/javascript.tmbundle.git
+PHP.tmbundle: git://github.com/textmate/php.tmbundle.git
+RSpec.tmbundle: git://github.com/rspec/rspec-tmbundle.git
+Ruby on Rails.tmbundle: git://github.com/avian/ruby-on-rails-tmbundle.git
+Ruby.tmbundle: git://github.com/textmate/ruby.tmbundle.git
+SCSS.tmbundle: git://github.com/kuroir/SCSS.tmbundle.git
+Shell Script.tmbundle: git://github.com/textmate/shellscript.tmbundle.git
+Source.tmbundle: git://github.com/textmate/source.tmbundle.git
+Text.tmbundle: git://github.com/textmate/text.tmbundle.git
+Themes.tmbundle: git://github.com/textmate/themes.tmbundle.git
+TODO.tmbundle: git://github.com/textmate/todo.tmbundle.git
