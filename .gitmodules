@@ -49,3 +49,6 @@
 [submodule "PHP.tmbundle"]
 	path = PHP.tmbundle
 	url = git@github.com:die-antwort/php.tmbundle.git
+[submodule "Stylus-TmBundle"]
+	path = Stylus-TmBundle
+	url = git://github.com/jameswomack/Stylus-TextMate-Bundle
