@@ -12,7 +12,7 @@ class UpstreamUrlTool < Thor
 
     Dir.chdir(File.dirname(__FILE__)) do
       Dir.chdir(".git/modules") do
-        Dir.glob("*.tmbundle").each do |mod|
+        Dir.glob("*").each do |mod|
           urls[mod] = `cat "#{mod}/config" | grep 'remote "upstream"' -A 3 | grep "url = " | cut -d= -f2`.strip
         end
       end
