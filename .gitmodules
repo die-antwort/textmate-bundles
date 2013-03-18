@@ -57,4 +57,4 @@
 	url = https://github.com/streeter/markdown-redcarpet.tmbundle.git
 [submodule "bundler.tmbundle"]
 	path = bundler.tmbundle
-	url = git://github.com/elia/bundler.tmbundle.git
+	url = git@github.com:die-antwort/bundler.tmbundle.git
