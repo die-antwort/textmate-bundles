@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU
+
+#bundle_lib = ENV['TM_BUNDLE_SUPPORT'] + '/lib'
+#$LOAD_PATH.unshift(bundle_lib) if ENV['TM_BUNDLE_SUPPORT'] and !$LOAD_PATH.include?(bundle_lib)
+
+
+require "#{ENV["TM_SUPPORT_PATH"]}/lib/textmate"
+require "#{ENV["TM_SUPPORT_PATH"]}/lib/ui"
+
+@items = [
+  'item1',
+  'item2',
+  'item3',
+]
+t = TextMate::UI.complete(@items)
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>@P</string>
+	<key>name</key>
+	<string>Open Project</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>90EAC5B2-DBD3-464C-B6B1-CE561864E2BD</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
