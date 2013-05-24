@@ -49,9 +49,6 @@
 [submodule "PHP.tmbundle"]
 	path = PHP.tmbundle
 	url = git@github.com:die-antwort/php.tmbundle.git
-[submodule "Stylus-TmBundle"]
-	path = Stylus-TmBundle
-	url = git://github.com/jameswomack/Stylus-TextMate-Bundle
 [submodule "markdown-redcarpet.tmbundle"]
 	path = markdown-redcarpet.tmbundle
 	url = https://github.com/streeter/markdown-redcarpet.tmbundle.git
@@ -61,3 +58,6 @@
 [submodule "Sass.tmbundle"]
 	path = Sass.tmbundle
 	url = https://github.com/nathos/sass-textmate-bundle.git
+[submodule "Stylus.tmbundle"]
+	path = Stylus.tmbundle
+	url = git://github.com/jameswomack/Stylus-TextMate-Bundle.git
