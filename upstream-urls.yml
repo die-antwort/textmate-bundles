@@ -16,7 +16,7 @@ Sass.tmbundle: https://github.com/nathos/sass-textmate-bundle.git
 SCSS.tmbundle: git://github.com/kuroir/SCSS.tmbundle.git
 Shell Script.tmbundle: git://github.com/textmate/shellscript.tmbundle.git
 Source.tmbundle: git://github.com/textmate/source.tmbundle.git
-Stylus-TmBundle: git://github.com/jameswomack/Stylus-TextMate-Bundle
+Stylus.tmbundle: git://github.com/jameswomack/Stylus-TextMate-Bundle
 Text.tmbundle: git://github.com/textmate/text.tmbundle.git
 Themes.tmbundle: git://github.com/textmate/themes.tmbundle.git
 TODO.tmbundle: git://github.com/textmate/todo.tmbundle.git
