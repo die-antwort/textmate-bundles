@@ -61,3 +61,6 @@
 [submodule "Stylus.tmbundle"]
 	path = Stylus.tmbundle
 	url = git://github.com/jameswomack/Stylus-TextMate-Bundle.git
+[submodule "Haml.tmbundle"]
+	path = Haml.tmbundle
+	url = git://github.com/phuibonhoa/handcrafted-haml-textmate-bundle.git
