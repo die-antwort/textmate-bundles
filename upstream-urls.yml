@@ -2,6 +2,7 @@
 bundler.tmbundle: git://github.com/elia/bundler.tmbundle.git
 CSS.tmbundle: git://github.com/textmate/css.tmbundle.git
 Cucumber.tmbundle: git://github.com/cucumber/cucumber-tmbundle.git
+Haml.tmbundle: git://github.com/phuibonhoa/handcrafted-haml-textmate-bundle.git
 HTML.tmbundle: git://github.com/textmate/html.tmbundle.git
 Hyperlink Helper.tmbundle: git://github.com/textmate/hyperlink-helper.tmbundle.git
 Jade.tmbundle: git://github.com/miksago/jade-tmbundle.git
@@ -16,7 +17,9 @@ Sass.tmbundle: https://github.com/nathos/sass-textmate-bundle.git
 SCSS.tmbundle: git://github.com/kuroir/SCSS.tmbundle.git
 Shell Script.tmbundle: git://github.com/textmate/shellscript.tmbundle.git
 Source.tmbundle: git://github.com/textmate/source.tmbundle.git
+Stylus-TmBundle: git://github.com/jameswomack/Stylus-TextMate-Bundle
 Stylus.tmbundle: git://github.com/jameswomack/Stylus-TextMate-Bundle
 Text.tmbundle: git://github.com/textmate/text.tmbundle.git
 Themes.tmbundle: git://github.com/textmate/themes.tmbundle.git
 TODO.tmbundle: git://github.com/textmate/todo.tmbundle.git
+TYPO3.tmbundle: git://github.com/andyh/TYPO3.tmbundle.git
