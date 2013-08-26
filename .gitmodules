@@ -64,3 +64,6 @@
 [submodule "Haml.tmbundle"]
 	path = Haml.tmbundle
 	url = git://github.com/phuibonhoa/handcrafted-haml-textmate-bundle.git
+[submodule "Ruby-Slim.tmbundle"]
+	path = Ruby-Slim.tmbundle
+	url = git://github.com/slim-template/ruby-slim.tmbundle.git
