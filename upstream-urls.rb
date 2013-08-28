@@ -13,7 +13,12 @@ class UpstreamUrlTool < Thor
     Dir.chdir(File.dirname(__FILE__)) do
       Dir.chdir(".git/modules") do
         Dir.glob("*").each do |mod|
-          urls[mod] = `cat "#{mod}/config" | grep 'remote "upstream"' -A 3 | grep "url = " | cut -d= -f2`.strip
+          url = `cat "#{mod}/config" | grep 'remote "upstream"' -A 3 | grep "url = " | cut -d= -f2`.strip
+          if url != ""
+            urls[mod] = url
+          else
+            puts "WARNING: No remote named 'upstream' found for #{mod} - ignoring."
+          end
         end
       end
       File.open(FILENAME, "w") do |f|
