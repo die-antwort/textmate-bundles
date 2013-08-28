@@ -12,6 +12,7 @@ markdown-redcarpet.tmbundle: https://github.com/streeter/markdown-redcarpet.tmbu
 PHP.tmbundle: git://github.com/textmate/php.tmbundle.git
 RSpec.tmbundle: git://github.com/rspec/rspec-tmbundle.git
 Ruby on Rails.tmbundle: git://github.com/textmate/ruby-on-rails-tmbundle.git
+Ruby-Slim.tmbundle: git://github.com/slim-template/ruby-slim.tmbundle.git
 Ruby.tmbundle: git://github.com/textmate/ruby.tmbundle.git
 Sass.tmbundle: https://github.com/nathos/sass-textmate-bundle.git
 SCSS.tmbundle: git://github.com/kuroir/SCSS.tmbundle.git
