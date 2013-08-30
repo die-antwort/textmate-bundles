@@ -5,20 +5,18 @@ require "yaml"
 
 class UpstreamUrlTool < Thor
   FILENAME = "upstream-urls.yml"
-
+  
   desc "dump", "dump upstream URLs of all submodules to '#{FILENAME}'"
   def dump
     urls = {}
 
     Dir.chdir(File.dirname(__FILE__)) do
-      Dir.chdir(".git/modules") do
-        Dir.glob("*").each do |mod|
-          url = `cat "#{mod}/config" | grep 'remote "upstream"' -A 3 | grep "url = " | cut -d= -f2`.strip
-          if url != ""
-            urls[mod] = url
-          else
-            puts "WARNING: No remote named 'upstream' found for #{mod} - ignoring."
-          end
+      submodules.each do |mod|
+        url = `cat ".git/modules/#{mod}/config" | grep 'remote "upstream"' -A 3 | grep "url = " | cut -d= -f2`.strip
+        if url != ""
+          urls[mod] = url
+        else
+          puts "WARNING: No remote named 'upstream' found for #{mod} - ignoring."
         end
       end
       File.open(FILENAME, "w") do |f|
@@ -44,6 +42,14 @@ class UpstreamUrlTool < Thor
     end
     puts "\nDone!"
   end
+  
+  private
+  
+  def submodules
+    File.readlines(".gitmodules").map{ |line| 
+      line =~ /^\s*path\s*=\s*(.*)\s*$/ && $1 
+    }.compact.sort_by(&:downcase)
+  end 
 end
 
 UpstreamUrlTool.start
