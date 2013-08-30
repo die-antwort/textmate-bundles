@@ -31,13 +31,12 @@ class UpstreamUrlTool < Thor
     puts "Setting upstream URLs"
     YAML.load_file(FILENAME).each do |mod, url|
       Dir.chdir(File.dirname(__FILE__) + "/#{mod}") do
-        puts "\n#{mod} => #{url}"
-        system "git remote add upstream #{url}"
-        unless $?.success?
-          puts "Failed - maybe the remote exists already? Trying set-url ..."
-          system "git remote set-url upstream #{url}"
-          puts $?.success? ? "Success." : "Failed again. Giving up."
+        output = `git remote add upstream #{url} 2>&1`
+        if !$?.success? && output =~ /remote upstream already exists/
+          output = `git remote set-url upstream #{url} 2>&1`
         end
+        puts ($?.success? ? "✅  " : "💥  ") + "#{mod} => #{url}"
+        puts output unless $?.success?
       end
     end
     puts "\nDone!"
