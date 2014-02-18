@@ -2,13 +2,14 @@
 bundler.tmbundle: git://github.com/elia/bundler.tmbundle.git
 CSS.tmbundle: git://github.com/textmate/css.tmbundle.git
 Cucumber.tmbundle: git://github.com/cucumber/cucumber-tmbundle.git
-Haml.tmbundle: git://github.com/phuibonhoa/handcrafted-haml-textmate-bundle.git
+Haml.tmbundle: https://github.com/die-antwort/handcrafted-haml-textmate-bundle.git
 HTML.tmbundle: git://github.com/textmate/html.tmbundle.git
 Hyperlink Helper.tmbundle: git://github.com/textmate/hyperlink-helper.tmbundle.git
 Jade.tmbundle: git://github.com/miksago/jade-tmbundle.git
 JavaScript JSLintMate.tmbundle: git://github.com/rondevera/jslintmate.git
 JavaScript.tmbundle: git://github.com/textmate/javascript.tmbundle.git
 markdown-redcarpet.tmbundle: https://github.com/streeter/markdown-redcarpet.tmbundle.git
+Merge-Markers.tmbundle: https://github.com/noniq/Merge-Markers.tmbundle.git
 PHP.tmbundle: git://github.com/textmate/php.tmbundle.git
 RSpec.tmbundle: git://github.com/rspec/rspec-tmbundle.git
 Ruby on Rails.tmbundle: git://github.com/textmate/ruby-on-rails-tmbundle.git
