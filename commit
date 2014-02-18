@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-require "tempfile"
-
 logs = {}
 
 diff = `git diff --cached --submodule`
