@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+require "tempfile"
+
+logs = {}
+
+diff = `git diff --cached --submodule`
+diff.each_line do |line|
+  if /^Submodule (?<submodule>.*) (?<old_hash>\w+)\.\.(?<new_hash>\w+)/ =~ line
+    Dir.chdir(submodule) do
+      if `git rev-parse HEAD` != `git rev-parse origin/master`
+        puts "ERROR: #{submodule}: HEAD does not match origin/master."
+        puts `git rev-parse HEAD`, `git rev-parse origin/master`
+        exit 1
+      end
+    
+      logs[submodule] = "#{submodule}: #{old_hash}..#{new_hash}\n\n"
+      logs[submodule] << `git log #{old_hash}..#{new_hash} --no-merges --pretty="format:  * %h %s (%an)%n%n%w(76,4,4)%-b%n"`
+    end
+  end
+end
+
+log = "Submodule updates: " + logs.keys.join(", ").gsub(".tmbundle", "") + "\n\n"
+log << logs.values.join("\n")
+
+IO.popen "git commit -e -F -", "w" do |f|
+  f.puts log
+end
