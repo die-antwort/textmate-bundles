@@ -8,7 +8,6 @@ diff.each_line do |line|
     Dir.chdir(submodule) do
       if `git rev-parse HEAD` != `git rev-parse origin/master`
         puts "ERROR: #{submodule}: HEAD does not match origin/master."
-        puts `git rev-parse HEAD`, `git rev-parse origin/master`
         exit 1
       end
     
