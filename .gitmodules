@@ -67,9 +67,6 @@
 [submodule "Ruby-Slim.tmbundle"]
 	path = Ruby-Slim.tmbundle
 	url = git://github.com/slim-template/ruby-slim.tmbundle.git
-[submodule "Merge-Markers.tmbundle"]
-	path = Merge-Markers.tmbundle
-	url = git@github.com:noniq/Merge-Markers.tmbundle
 [submodule "DashMate.tmbundle"]
 	path = DashMate.tmbundle
 	url = https://github.com/die-antwort/DashMate.tmbundle.git
