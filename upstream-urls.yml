@@ -22,4 +22,3 @@ Source.tmbundle: git://github.com/textmate/source.tmbundle.git
 Stylus.tmbundle: git://github.com/jameswomack/Stylus-TextMate-Bundle
 Text.tmbundle: git://github.com/textmate/text.tmbundle.git
 Themes.tmbundle: git://github.com/textmate/themes.tmbundle.git
-TODO.tmbundle: git://github.com/textmate/todo.tmbundle.git
