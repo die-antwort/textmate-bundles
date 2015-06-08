@@ -1,4 +1,5 @@
 ---
+avr-assembly.tmbundle: git://github.com/mherb/avr-assembly.tmbundle
 bundler.tmbundle: git://github.com/elia/bundler.tmbundle.git
 CSS.tmbundle: git://github.com/textmate/css.tmbundle.git
 Cucumber.tmbundle: git://github.com/cucumber/cucumber-tmbundle.git
