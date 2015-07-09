@@ -46,9 +46,6 @@
 [submodule "PHP.tmbundle"]
 	path = PHP.tmbundle
 	url = git@github.com:die-antwort/php.tmbundle.git
-[submodule "markdown-redcarpet.tmbundle"]
-	path = markdown-redcarpet.tmbundle
-	url = git@github.com:die-antwort/markdown-redcarpet.tmbundle.git
 [submodule "bundler.tmbundle"]
 	path = bundler.tmbundle
 	url = git@github.com:die-antwort/bundler.tmbundle.git
