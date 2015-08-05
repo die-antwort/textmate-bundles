@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>command</key>
+		<string>#!/usr/bin/env ruby18
+
+require ENV["TM_SUPPORT_PATH"] + '/../../../Make.tmBundle/Support/lib/make.rb'
+
+perform_make("upload")
+</string>
+		<key>inputFormat</key>
+		<string>text</string>
+		<key>keyEquivalent</key>
+		<string>@r</string>
+		<key>name</key>
+		<string>Upload and Run</string>
+		<key>outputCaret</key>
+		<string>afterOutput</string>
+		<key>outputFormat</key>
+		<string>html</string>
+		<key>outputLocation</key>
+		<string>newWindow</string>
+		<key>version</key>
+		<integer>2</integer>
+	</dict>
+	<key>deleted</key>
+	<array>
+		<string>output</string>
+	</array>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>66F3D8A7-5A16-4D87-9962-3A25328DC71A</string>
+</dict>
+</plist>
