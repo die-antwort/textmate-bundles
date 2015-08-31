@@ -4,7 +4,7 @@
 <dict>
 	<key>changed</key>
 	<dict>
-		<key>repository.block.patterns</key>
+		<key>patterns</key>
 		<array>
 			<dict>
 				<key>include</key>
@@ -12,60 +12,52 @@
 			</dict>
 			<dict>
 				<key>include</key>
-				<string>#separator</string>
-			</dict>
-			<dict>
-				<key>include</key>
-				<string>#heading</string>
-			</dict>
-			<dict>
-				<key>include</key>
-				<string>#blockquote</string>
-			</dict>
-			<dict>
-				<key>include</key>
-				<string>#lists</string>
-			</dict>
-			<dict>
-				<key>include</key>
-				<string>#raw_block</string>
-			</dict>
-			<dict>
-				<key>include</key>
-				<string>#link-def</string>
-			</dict>
-			<dict>
-				<key>include</key>
-				<string>#html</string>
-			</dict>
-			<dict>
-				<key>include</key>
-				<string>#paragraph</string>
+				<string>#block</string>
 			</dict>
 		</array>
-		<key>repository.block.repository.frontmatter</key>
+		<key>repository.frontmatter</key>
 		<dict>
-			<key>begin</key>
-			<string>(?:^|\G)---\s*\n</string>
-			<key>end</key>
-			<string>(?:^|\G)---\s*\n</string>
-			<key>name</key>
-			<string>markup.raw.block.frontmatter.markdown</string>
 			<key>patterns</key>
 			<array>
 				<dict>
-					<key>captures</key>
-					<dict>
-						<key>1</key>
-						<dict>
-							<key>name</key>
-							<string>entity.name.tag.frontmatter</string>
-						</dict>
-					</dict>
-					<key>match</key>
-					<string>(?:^|\G)(\w+:).*$</string>
+					<key>begin</key>
+					<string>(?:^|\G)---\s*\n</string>
+					<key>end</key>
+					<string>(?:^|\G)---\s*\n</string>
 					<key>name</key>
-					<string>string.unquoted.frontmatter</string>
+					<string>markup.raw.block.frontmatter.markdown</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>captures</key>
+							<dict>
+								<key>1</key>
+								<dict>
+									<key>name</key>
+									<string>entity.name.tag.frontmatter</string>
+								</dict>
+							</dict>
+							<key>match</key>
+							<string>(?:^|\G)(\w+:).*$</string>
+							<key>name</key>
+							<string>string.unquoted.frontmatter</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>(?:^|\G)</string>
+					<key>end</key>
+					<string>(?not)possible</string>
+					<key>name</key>
+					<string>meta.markdown.after-frontmatter</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#block</string>
+						</dict>
+					</array>
 				</dict>
 			</array>
 		</dict>
