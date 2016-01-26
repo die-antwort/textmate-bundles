@@ -67,3 +67,6 @@
 [submodule "Strip-Whitespace-On-Save.tmbundle"]
 	path = Strip-Whitespace-On-Save.tmbundle
 	url = https://github.com/bomberstudios/Strip-Whitespace-On-Save.tmbundle.git
+[submodule "Ensure-New-Line-at-the-EOF.tmbundle"]
+	path = Ensure-New-Line-at-the-EOF.tmbundle
+	url = https://github.com/hajder/Ensure-New-Line-at-the-EOF.tmbundle.git
