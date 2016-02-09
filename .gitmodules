@@ -67,6 +67,6 @@
 [submodule "Ensure-New-Line-at-the-EOF.tmbundle"]
 	path = Ensure-New-Line-at-the-EOF.tmbundle
 	url = https://github.com/hajder/Ensure-New-Line-at-the-EOF.tmbundle.git
-[submodule "JavascriptHinter.tmbundle"]
-	path = JavascriptHinter.tmbundle
-	url = git://github.com/bodnaristvan/JavascriptHinter.tmbundle.git
+[submodule "javascript-eslint.tmbundle"]
+	path = javascript-eslint.tmbundle
+	url = git@github.com:die-antwort/javascript-eslint.tmbundle.git

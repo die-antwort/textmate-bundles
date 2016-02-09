@@ -9,8 +9,8 @@ Haml.tmbundle: https://github.com/die-antwort/handcrafted-haml-textmate-bundle.g
 HTML.tmbundle: git://github.com/textmate/html.tmbundle.git
 Hyperlink Helper.tmbundle: git://github.com/textmate/hyperlink-helper.tmbundle.git
 Jade.tmbundle: git://github.com/miksago/jade-tmbundle.git
+javascript-eslint.tmbundle: https://github.com/natesilva/javascript-eslint.tmbundle.git
 JavaScript.tmbundle: git://github.com/textmate/javascript.tmbundle.git
-JavascriptHinter.tmbundle: git://github.com/bodnaristvan/JavascriptHinter.tmbundle.git
 PHP.tmbundle: git://github.com/textmate/php.tmbundle.git
 RSpec.tmbundle: git@github.com:rspec/rspec-tmbundle.git
 Ruby on Rails.tmbundle: git://github.com/textmate/ruby-on-rails-tmbundle.git
