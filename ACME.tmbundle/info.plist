@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string></string>
+	<key>contactName</key>
+	<string>Stefan Daschek</string>
+	<key>description</key>
+	<string>Bundle for the ACME cross-assembler.</string>
+	<key>name</key>
+	<string>ACME</string>
+	<key>uuid</key>
+	<string>DD7B5536-7C78-40F7-9282-511C84AD24D6</string>
+</dict>
+</plist>
