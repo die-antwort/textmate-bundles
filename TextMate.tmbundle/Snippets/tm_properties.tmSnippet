@@ -4,8 +4,8 @@
 <dict>
 	<key>content</key>
 	<string># Excludes
-#excludeInFileChooser = "{$exclude,tmp/}"
-#excludeInFolderSearch = "{$excludeInFolderSearch,db/*.csv}"
+#excludeInFileChooser = "{\$exclude,tmp/}"
+#excludeInFolderSearch = "{\$excludeInFolderSearch,db/*.csv}"
 
 # Enable to keep whitespaces 
 #scopeAttributes = attr.keep-whitespace
