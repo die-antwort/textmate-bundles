@@ -73,3 +73,6 @@
 [submodule "GitHub-Markdown.tmbundle"]
 	path = GitHub-Markdown.tmbundle
 	url = git@github.com:noniq/GitHub-Markdown.tmbundle.git
+[submodule "Markdown-Front-Matter.tmbundle"]
+	path = Markdown-Front-Matter.tmbundle
+	url = git@github.com:noniq/Markdown-Front-Matter.tmbundle.git
