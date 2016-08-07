@@ -76,3 +76,9 @@
 [submodule "Markdown-Front-Matter.tmbundle"]
 	path = Markdown-Front-Matter.tmbundle
 	url = git@github.com:noniq/Markdown-Front-Matter.tmbundle.git
+[submodule "scm-diff-gutter.tmbundle"]
+	path = scm-diff-gutter.tmbundle
+	url = git@github.com:noniq/scm-diff-gutter.tmbundle.git
+[submodule "RuboCop.tmbundle"]
+	path = RuboCop.tmbundle
+	url = git@github.com:noniq/RuboCop.tmbundle.git
