@@ -7,8 +7,8 @@
 #excludeInFileChooser = "{\$exclude,tmp/}"
 #excludeInFolderSearch = "{\$excludeInFolderSearch,db/*.csv}"
 
-# Enable to keep whitespaces 
-#scopeAttributes = attr.keep-whitespace
+# Enable to keep whitespaces and/or missing trailing newlines
+#scopeAttributes = 'attr.keep-whitespace attr.do-not-ensure-new-line'
 
 # For Rails projects
 #[ *.rb~*_spec.rb ]
@@ -24,7 +24,7 @@
 	<key>scope</key>
 	<string>source.tm-properties</string>
 	<key>tabTrigger</key>
-	<string>t</string>
+	<string>def</string>
 	<key>uuid</key>
 	<string>862C2C4C-FEAE-465B-8DD2-3FEBF71E8B0D</string>
 </dict>
