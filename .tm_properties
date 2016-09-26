@@ -1,0 +1,2 @@
+# Enable to keep whitespaces and/or missing trailing newlines
+scopeAttributes = 'attr.keep-whitespace attr.do-not-ensure-new-line'
