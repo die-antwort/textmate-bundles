@@ -6,8 +6,8 @@ diff = `git diff --cached --submodule`
 diff.each_line do |line|
   if /^Submodule (?<submodule>.*) (?<old_hash>\w+)\.\.(?<new_hash>\w+)/ =~ line
     Dir.chdir(submodule) do
-      if `git rev-parse HEAD` != `git rev-parse origin/master`
-        puts "ERROR: #{submodule}: HEAD does not match origin/master."
+      if `git rev-parse HEAD` != `git rev-parse @{push}`
+        puts "ERROR: #{submodule}: Some commits have not been pushed."
         exit 1
       end
     
