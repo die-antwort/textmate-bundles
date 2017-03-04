@@ -17,6 +17,7 @@ RSpec.tmbundle: git@github.com:rspec/rspec-tmbundle.git
 Ruby on Rails.tmbundle: git://github.com/textmate/ruby-on-rails-tmbundle.git
 Ruby.tmbundle: git://github.com/textmate/ruby.tmbundle.git
 Sass.tmbundle: https://github.com/nathos/sass-textmate-bundle.git
+scm-diff-gutter.tmbundle: https://github.com/textmate/scm-diff-gutter.tmbundle.git
 SCSS.tmbundle: git://github.com/kuroir/SCSS.tmbundle.git
 Shell Script.tmbundle: git://github.com/textmate/shellscript.tmbundle.git
 Source.tmbundle: git://github.com/textmate/source.tmbundle.git
