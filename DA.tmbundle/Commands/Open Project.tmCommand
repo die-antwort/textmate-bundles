@@ -25,8 +25,6 @@ t = TextMate::UI.complete(@items)
 	<string>selection</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>@P</string>
 	<key>name</key>
 	<string>Open Project</string>
 	<key>outputCaret</key>
@@ -34,7 +32,7 @@ t = TextMate::UI.complete(@items)
 	<key>outputFormat</key>
 	<string>text</string>
 	<key>outputLocation</key>
-	<string>discard</string>
+	<string>toolTip</string>
 	<key>uuid</key>
 	<string>90EAC5B2-DBD3-464C-B6B1-CE561864E2BD</string>
 	<key>version</key>
