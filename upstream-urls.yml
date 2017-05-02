@@ -5,7 +5,7 @@ CSS.tmbundle: git://github.com/textmate/css.tmbundle.git
 Cucumber.tmbundle: git://github.com/cucumber/cucumber-tmbundle.git
 DashMate.tmbundle: https://github.com/ram-nadella/DashMate.tmbundle.git
 Ensure-New-Line-at-the-EOF.tmbundle: https://github.com/hajder/Ensure-New-Line-at-the-EOF.tmbundle.git
-GitHub-Markdown.tmbundle: https://github.com/MikeMcQuaid/GitHub-Markdown.tmbundle.git
+GitHub-Markdown.tmbundle: git@github.com:MikeMcQuaid/GitHub-Markdown.tmbundle.git
 Haml.tmbundle: https://github.com/die-antwort/handcrafted-haml-textmate-bundle.git
 HTML.tmbundle: git://github.com/textmate/html.tmbundle.git
 Hyperlink Helper.tmbundle: git://github.com/textmate/hyperlink-helper.tmbundle.git
