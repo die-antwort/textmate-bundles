@@ -9,7 +9,7 @@
 
 require ENV["TM_SUPPORT_PATH"] + '/../../../Make.tmBundle/Support/lib/make.rb'
 
-perform_make("upload")
+perform_make(ENV["TM_MAKE_RUN_TARGET"] || "run")
 </string>
 		<key>inputFormat</key>
 		<string>text</string>
