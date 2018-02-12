@@ -82,3 +82,6 @@
 [submodule "RuboCop.tmbundle"]
 	path = RuboCop.tmbundle
 	url = git@github.com:noniq/RuboCop.tmbundle.git
+[submodule "turtle.tmbundle"]
+	path = turtle.tmbundle
+	url = git@github.com:noniq/turtle.tmbundle.git

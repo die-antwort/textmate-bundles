@@ -13,7 +13,7 @@ Jade.tmbundle: git://github.com/miksago/jade-tmbundle.git
 javascript-eslint.tmbundle: https://github.com/natesilva/javascript-eslint.tmbundle.git
 JavaScript.tmbundle: git://github.com/textmate/javascript.tmbundle.git
 PHP.tmbundle: git://github.com/textmate/php.tmbundle.git
-RSpec.tmbundle: git@github.com:rspec/rspec-tmbundle.git
+RSpec.tmbundle: git@github.com:rspec/rspec.tmbundle.git
 Ruby on Rails.tmbundle: git://github.com/textmate/ruby-on-rails-tmbundle.git
 Ruby.tmbundle: git://github.com/textmate/ruby.tmbundle.git
 Sass.tmbundle: https://github.com/nathos/sass-textmate-bundle.git
@@ -25,3 +25,4 @@ Strip-Whitespace-On-Save.tmbundle: https://github.com/bomberstudios/Strip-Whites
 Stylus.tmbundle: git://github.com/jameswomack/Stylus-TextMate-Bundle
 Text.tmbundle: git://github.com/textmate/text.tmbundle.git
 Themes.tmbundle: git://github.com/textmate/themes.tmbundle.git
+turtle.tmbundle: https://github.com/peta/turtle.tmbundle.git
