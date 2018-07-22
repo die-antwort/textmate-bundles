@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/bin/bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+result=`elm-format-0.18 --stdin 2&gt;&amp;1`
+if [[ $? &gt; 0 ]];
+	then exit_show_tool_tip "Errors: $result"
+	else echo "$result"
+fi</string>
+	<key>input</key>
+	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>name</key>
+	<string>Reformat on Save</string>
+	<key>outputCaret</key>
+	<string>interpolateByChar</string>
+	<key>scope</key>
+	<string>source.elm</string>
+	<key>semanticClass</key>
+	<string>callback.document.will-save</string>
+	<key>uuid</key>
+	<string>4247CA9F-9DA8-4D6A-8DD4-98E2EB9719DF</string>
+</dict>
+</plist>
